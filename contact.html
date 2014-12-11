@@ -1,0 +1,47 @@
+---
+layout: default
+title: Volvert - Contact
+---
+
+<section id="info">
+
+      <div class="espace"></div> 
+
+     <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+            <div id="map" style="width: 100%; height: 400px;"></div>
+
+              <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+              <script type="text/javascript">
+                var myOptions = {
+                    zoom: 14,
+                    center: new google.maps.LatLng(47.2471739, -1.504991700000005),
+                    mapTypeId: google.maps.MapTypeId.ROADMAP,
+                    styles: []
+                };
+
+                var map = new google.maps.Map(document.getElementById('map'), myOptions);
+
+                 //création du marqueur
+                  var marqueur = new google.maps.Marker({
+                    position: new google.maps.LatLng(47.2471739, -1.504991700000005),
+                    map: map,
+                    icon: 'images/marker.gif'
+                  });
+
+              </script>
+        </div>
+        <div class="col-sm-6">
+            <div class="contact">
+            <h3>Contact</h3>
+            <p>Nantes Créatic</p>
+            <p>2 rue Robert le Ricolais, 44300 NANTES</p>
+            <p>contact@volvert.fr</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </section>

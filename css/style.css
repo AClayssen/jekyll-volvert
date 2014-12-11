@@ -1,2 +1,359 @@
+html,body{
+	position: relative;
+	margin: 0px;
+	height: 100%;
+	font-family: 'Quicksand';
+	background-color: rgb(255,255,255);
+}
+
+/****
+textes
+****/
+strong { 	color: rgb(62,84,99);}
+p {			color: rgb(62,84,99);}
+a {			color: rgb(62,84,99);text-decoration: none;}
+a:hover {	color: white;text-decoration: none;}
+ul {		list-style-type: none;}
+i {			font-size: 3.5em;
+			margin-right: 0.2em;
+			}
+a.mail {
+	background-color: rgb(62,84,99);
+    font-size: 1.7em;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+a.mail:hover{
+	background-color: white;
+	color: rgb(62,84,99);
+}
+p {	font-size: 1.2em;}
+
+/* LOGO */
+
+img[class='logo']{
+	margin: auto;
+	display: block;
+}
+
+/****
+titres
+*****/
+h2{
+	margin-bottom: 30px;
+	margin-top: 10px;
+	font-size: 2.3em;
+	font-weight: 700;
+}
+
+h1{
+	font-size: 2.5em;
+	font-weight: 700px;
+	color: rgb(62,84,99);
+}
+
+
+/*****
+styles généraux
+******/
+
+.espace {
+	height: 2em;
+}
+
+.grandespace {
+	height: 5em;
+}
+
+/*****
+Layout
+******/
+
+/**** header *****/
+
+header {
+	background-image: url("../images/Haut.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 400px;
+	padding-top: 100px;
+}
+
+/**** soutien *****/
+
+section#soutien {
+	background: #fff url("../images/fleche.png") top center no-repeat;
+	padding: 70px 0;
+}
+
+@media (min-width: 992px) {
+	section#soutien {
+	background: url("../images/fleche2.png") top center no-repeat;
+	background-size: 1850px; 
+}
+}
+
+section.text
+{
+	padding-left: 20px;
+	background: none;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 2em;
+	font-weight: 700;
+}
+
+@media (min-width: 768px) {
+	section.text
+	{
+		background: url("../images/") left center no-repeat;
+		background-size: 200px;
+		padding-left: 70px;
+		padding-right: 70px;
+		padding-top: 10px;
+		font-size: 2em;
+	}
+}
+
+@media (min-width: 992px) {
+	section.text
+	{
+		background: url("../images/") left center no-repeat;
+		background-size: 200px;
+		padding-left: 0px;
+		padding-right: 180px;
+		padding-top: 20px;
+		font-size: 2.5em;
+	}
+}
+
+
+a.KKBB {
+width:280px;
+height:300px;
+display:block;
+background-image:url("../images/KKBB.jpg");
+background-repeat:no-repeat;
+background-size: 250px;
+margin: 10px;
+
+}
+a.KKBB:hover {
+background-image:url("../images/KKBB2.jpg");
+background-repeat:no-repeat
+}
+
+
+/**** pret *****/
+
+section[class='pret']
+{
+	background: url("../images/IMG2.jpg") left center no-repeat fixed ;
+	background-size: cover;
+}
+
+div[class='ready']
+{
+	font-size: 1.2em;
+	font-family: 'Quicksand';
+	text-align: center;
+	font-weight: 700;
+	padding: 100px;
+}
+
+@media (min-width: 768px) {
+div[class='ready']
+{
+	font-size: 2.7em;
+	font-family: 'Quicksand';
+	text-align: center;
+	font-weight: 700;
+	padding: 100px;
+}
+}
+
+
+
+/**** infos *****/
+
+section#info{
+	background-color: rgb(235,235,235);
+	padding: 20px;
+}
+
+section.text2
+{
+	padding-left: 0;
+	background: none;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+@media (min-width: 992px) {
+	section.text2
+	{
+		background: url("../images/main_direction.png") left center no-repeat;
+		background-size: 150px;
+		padding-left: 200px;
+		padding-top: 50px;
+	}
+}
+
+div[class='titre']
+{
+	text-align: center;
+}
+
+/**** Produit *****/
+
+div[class='video2']
+{
+	margin-bottom: 50px;
+}
+
+object
+{
+	margin: auto;
+	display: block;
+}
+
+section[class='produit']
+{
+	background: rgb(235,235,235) url("../images/le v.png") bottom right no-repeat;
+	text-align: left;
+	font-weight: 700;
+	font-family: 'Montserrat'
+}
+
+img[class='val']
+{
+	margin: auto;
+	display: block;
+	padding: 25px;
+	float: left;
+}
+
+section.produit p{
+	padding: 50px;
+}
+	
+
+/**** video *****/
+
+section[clas='video']
+{
+	background-color: rgb(255,255,255);
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
+
+div[class='textvideo']
+{
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+	div[class='textvideo']
+{
+	padding-left: 100px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+}
+
+div[class='video']
+{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+/**** kiss *****/
+
+section[class='kiss']
+{
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+@media (min-width: 992px) {
+	section.kiss
+	{
+		padding-right: 300px;
+		padding-left: 300px;
+	}
+}
+
+/**** photo *****/
+
+div[id='photo']
+{
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+}
+
+div[id='p']
+{
+	width: auto;
+	margin: 0px;
+	padding: 0px;
+}
+div#cover {
+	width: 337px;
+	margin: 0px auto;
+	padding: 0px;
+}
+@media (min-width: 674px) {
+	div#cover {
+	width: 674px;
+	}	
+}
+@media (min-width: 1348px) {
+	div#cover {
+	width: 1348px;
+	}
+}
+div#cover .item_photo {
+	width: 337px;
+	float: left;
+}
+/**** Contact *****/
+
+div.map{
+	margin-top: 4em;
+}
+
+div.contact{
+	padding-left: 3em;
+	font-size: 1.2em;
+}
+
+h3{
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+/**** footer *****/
+footer
+{
+	text-align: center;
+	color: white;
+	padding-top: 30px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: rgb(175,198,93);
+}
 /* You can put your own style here */
 
