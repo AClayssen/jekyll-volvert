@@ -34,6 +34,32 @@ a.mail:hover{
 }
 p {	font-size: 1.2em;}
 
+
+/* Nav bar */
+
+nav[class='navbar navbar-default']
+{
+    background-color: rgb(142,205,205);
+    font-size: 1.6em;
+    border: none;
+    border-radius: 0px;
+    font-weight: 600;
+}
+
+#top {
+  width: 100%;
+  height: 40px;
+  position: relative;
+  z-index: 99;
+  float: left;
+  color: rgb(57,81,96);
+}
+
+#top.floatable {
+  position: fixed;
+  top: 0px;
+}
+
 /* LOGO */
 
 img[class='logo']{
@@ -90,6 +116,7 @@ header {
 section#soutien {
 	background: #fff url("../images/fleche.png") top center no-repeat;
 	padding: 70px 0;
+	margin-top: 50px;
 }
 
 @media (min-width: 992px) {
@@ -224,7 +251,7 @@ object
 
 section[class='produit']
 {
-	background: rgb(235,235,235) url("../images/le v.png") bottom right no-repeat;
+	background: rgb(235,235,235) url("../images/lev.png") bottom right no-repeat;
 	text-align: left;
 	font-weight: 700;
 	font-family: 'Montserrat'
